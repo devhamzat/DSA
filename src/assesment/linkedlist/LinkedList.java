@@ -6,14 +6,14 @@ import java.util.HashSet;
 public class LinkedList {
     static boolean removeLoop(Node head) {
         HashSet<Node> address = new HashSet<>();
-        Node prev = null;
+        Node current = null;
         while (head != null) {
             if (address.contains(head)) {
-                prev.next = null;
+                current.next = null;
                 return true;
             } else address.add(head);
             {
-                prev = head;
+                current = head;
                 head = head.next;
             }
 
@@ -24,13 +24,13 @@ public class LinkedList {
 
     static void printList(Node node) {
         while (node != null) {
-            System.out.print(node.data + " " + node.next);
+            System.out.print(node.data + " ");
             node = node.next;
         }
     }
 
 
-    public static boolean detectCycle(Node head) {
+    public static boolean detectLoop(Node head) {
 
         Node slowpointer = head;
         Node fastPointer = head;
@@ -67,13 +67,15 @@ public class LinkedList {
 //        uncommenting the code line below creates the loop
         seventh.next = third;
 
-        if (detectCycle(head)) {
+        if (detectLoop(head)) {
             System.out.println("loop present");
             //found out uncommenting the below code is trouble.
 //            System.out.println("loop before");
 //            printList(head);
-            removeLoop(head);
-            printList(head);
+            if (removeLoop(head)) {
+                printList(head);
+            }
+
 
         } else {
             System.out.println("No loop");
