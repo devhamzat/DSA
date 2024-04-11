@@ -1,7 +1,33 @@
 package assesment.linkedlist;
 
 
+import java.util.HashSet;
+
 public class LinkedList {
+    static boolean removeLoop(Node head) {
+        HashSet<Node> address = new HashSet<>();
+        Node prev = null;
+        while (head != null) {
+            if (address.contains(head)) {
+                prev.next = null;
+                return true;
+            } else address.add(head);
+            {
+                prev = head;
+                head = head.next;
+            }
+
+        }
+        return false;
+    }
+
+
+    static void printList(Node node) {
+        while (node != null) {
+            System.out.print(node.data + " " + node.next);
+            node = node.next;
+        }
+    }
 
 
     public static boolean detectCycle(Node head) {
@@ -43,6 +69,12 @@ public class LinkedList {
 
         if (detectCycle(head)) {
             System.out.println("loop present");
+            //found out uncommenting the below code is trouble.
+//            System.out.println("loop before");
+//            printList(head);
+            removeLoop(head);
+            printList(head);
+
         } else {
             System.out.println("No loop");
         }
