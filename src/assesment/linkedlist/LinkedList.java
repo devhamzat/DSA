@@ -1,8 +1,6 @@
 package assesment.linkedlist;
 
 
-import java.util.HashSet;
-
 public class LinkedList {
 
 
@@ -27,7 +25,7 @@ public class LinkedList {
             if (slowpointer == fastPointer) {
                 System.out.println("loop present");
                 System.out.println("removing loop.....");
-                fastPointer.next = null;
+                fastPointer.next.next = null;
                 printList(head);
                 return 1;
 
@@ -47,6 +45,7 @@ public class LinkedList {
         Node fifth = new Node(5);
         Node sixth = new Node(5);
         Node seventh = new Node(5);
+
 
 
         head.next = second;
