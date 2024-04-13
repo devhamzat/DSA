@@ -4,22 +4,6 @@ package assesment.linkedlist;
 import java.util.HashSet;
 
 public class LinkedList {
-    static boolean removeLoop(Node head) {
-        HashSet<Node> address = new HashSet<>();
-        Node current = null;
-        while (head != null) {
-            if (address.contains(head)) {
-                current.next = null;
-                return true;
-            } else address.add(head);
-            {
-                current = head;
-                head = head.next;
-            }
-
-        }
-        return false;
-    }
 
 
     static void printList(Node node) {
@@ -30,21 +14,28 @@ public class LinkedList {
     }
 
 
-    public static boolean detectLoop(Node head) {
+    public static int detectAndRemoveLoop(Node head) {
 
         Node slowpointer = head;
         Node fastPointer = head;
+
         while (fastPointer != null && fastPointer.next != null) {
 
             slowpointer = slowpointer.next;
 
             fastPointer = fastPointer.next.next;
             if (slowpointer == fastPointer) {
-                return true;
+                System.out.println("loop present");
+                System.out.println("removing loop.....");
+                fastPointer.next = null;
+                printList(head);
+                return 1;
+
             }
         }
 
-        return false;
+        return 0;
+
     }
 
 
@@ -65,17 +56,10 @@ public class LinkedList {
         fifth.next = sixth;
         sixth.next = seventh;
 //        uncommenting the code line below creates the loop
-        seventh.next = third;
+//        seventh.next = third;
 
-        if (detectLoop(head)) {
-            System.out.println("loop present");
-            //found out uncommenting the below code is trouble.
-//            System.out.println("loop before");
-//            printList(head);
-            if (removeLoop(head)) {
-                printList(head);
-            }
 
+        if (detectAndRemoveLoop(head) == 1) {
 
         } else {
             System.out.println("No loop");
