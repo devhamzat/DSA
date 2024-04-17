@@ -1,12 +1,12 @@
 public class BooleanMatrix {
-    public static void bruteForceBooleanMatrix(int matrix[][]) {
+    public static void bruteForceBooleanMatrix(int[][] matrix) {
         int rowSize = matrix.length;
-        int colunmSize = matrix[0].length;
-        int[][] outputMatrix = new int[rowSize][colunmSize];
+        int columnSize = matrix[0].length;
+        int[][] outputMatrix = new int[rowSize][columnSize];
         for (int rows = 0; rows < matrix.length; rows++) {
             for (int columns = 0; columns < matrix.length; columns++) {
                 if (matrix[rows][columns] == 1) {
-                    for (int columnIncrement = 0; columnIncrement < colunmSize; columnIncrement++) {
+                    for (int columnIncrement = 0; columnIncrement < columnSize; columnIncrement++) {
                         outputMatrix[rows][columnIncrement] = 1;
                     }
                     for (int rowIncrement = 0; rowIncrement < rowSize; rowIncrement++) {
@@ -18,7 +18,7 @@ public class BooleanMatrix {
         }
     }
 
-    public static void booleanMatrix(int matrix[][]) {
+    public static void booleanMatrix(int[][] matrix) {
 
         int rowSize = matrix.length;
         int columnSize = matrix[0].length;
@@ -55,17 +55,60 @@ public class BooleanMatrix {
         }
     }
 
+    public static void optimizedBooleanMatrix(int[][] matrix) {
+        int rowSize = matrix.length;
+        int columnSize = matrix[0].length;
+
+        boolean firstRowHasOne = false;
+        boolean firstColumnHasOne = false;
+
+        for (int firstRow = 0; firstRow < rowSize; firstRow++) {
+            for (int firstColumn = 0; firstColumn < columnSize; firstColumn++) {
+                if (matrix[firstRow][0] == 1) {
+                    firstRowHasOne = true;
+
+
+                }
+                if (matrix[0][firstColumn] == 1) {
+                    firstColumnHasOne = true;
+
+                }
+
+            }
+        }
+
+
+        for (int remainingRow = 1; remainingRow < rowSize; remainingRow++) {
+            for (int remainingColumn = 1; remainingColumn < columnSize; remainingColumn++) {
+                if (matrix[remainingRow][remainingColumn] == 1) {
+                    matrix[0][remainingColumn] = 1;
+                    matrix[remainingRow][0] = 1;
+                }
+            }
+        }
+
+
+        for (int row = 1; row < rowSize; row++) {
+            for (int col = 1; col < columnSize; col++) {
+                if (firstRowHasOne || firstColumnHasOne) {
+                    matrix[row][col] = 1;
+
+                }
+            }
+        }
+
+
+    }
+
 
     public static void main(String[] args) {
-//        int[][] matrix ={{ 1, 0, 0},
-//                { 1, 0, 0},
-//                { 1, 0, 0},
-//                { 0, 0, 0}};
-        int[][] matrix={{1,0},{0,0}};
+        int[][] matrix = {{1, 0, 0},
+                {1, 0, 0},
+                {1, 0, 0},
+                {0, 0, 0}};
+//        int[][] matrix = {{1, 0}, {0, 1}};
 
-        booleanMatrix(matrix);
-
-
+        optimizedBooleanMatrix(matrix);
     }
 }
 
