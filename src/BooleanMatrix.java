@@ -1,3 +1,5 @@
+//this class contains three different method of implementing a solution for boolean matrix
+//it differs with space and time complexity
 public class BooleanMatrix {
     public static void bruteForceBooleanMatrix(int[][] matrix) {
         int rowSize = matrix.length;
