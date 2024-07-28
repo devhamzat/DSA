@@ -110,7 +110,8 @@ public class BooleanMatrix {
                 {0, 0, 0}};
 //        int[][] matrix = {{1, 0}, {0, 1}};
 
-        optimizedBooleanMatrix(matrix);
+//        optimizedBooleanMatrix(matrix);
+        bruteForceBooleanMatrix(matrix);
     }
 }
 

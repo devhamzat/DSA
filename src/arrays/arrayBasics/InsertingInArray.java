@@ -1,0 +1,37 @@
+package arrays.arrayBasics;
+
+public class InsertingInArray {
+
+    void insertElement(int arr[], int position, int n, int x) {
+        for (int i = n - 1; i <= position; i--) {
+            arr[i + 1] = arr[i];
+
+        }
+        arr[position] = x;
+    }
+
+    public static void main(String[] args) {
+        InsertingInArray insertingInArray = new InsertingInArray();
+        int arr[] = new int[10];
+        arr[0] = 2;
+        arr[1] = 34;
+        arr[2] = 22;
+        arr[3] = 21;
+        arr[4] = 20;
+        int n = 5;
+        int x = 5, pos = 2;
+        System.out.println("before insertion : ");
+        for (int i = 0; i < n; i++) {
+            System.out.println(arr[i]);
+        }
+        System.out.println("  ");
+
+        insertingInArray.insertElement(arr, pos,n, x );
+
+        System.out.println("after insertion");
+        for (int i = 0; i < n; i++) {
+            System.out.println(arr[i] + "");
+        }
+    }
+
+}

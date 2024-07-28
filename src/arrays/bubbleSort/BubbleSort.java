@@ -7,7 +7,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {12, 20, 3, 1, 40, 0, 6, 7, 2, 41, 60, 10, 11, 22, 18, 50};
         int arrayLength = array.length;
-        System.out.println(arrayLength);
+        System.out.println(" length of array : "+ arrayLength);
         for (int i = 0; i < arrayLength - 1; i++) {
             for (int j = 0; j < arrayLength - 1 - 1; j++) {
                 if (array[j] > array[j + 1]) {

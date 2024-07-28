@@ -1,4 +1,4 @@
-package arrays;
+package arrays.arrayBasics;
 
 public class BasicLoopThroughArray {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class BasicLoopThroughArray {
         String car[] = {"porsche", "volkswagon", "mercedes", "innoson", "kia", "tesla", "audi"};
         //this loop is a for each loop that does the same thing as the above loop
         for (String i : car) {
-            System.out.println(i);
+            System.out.println(i + " is a nice car.");
         }
     }
 }

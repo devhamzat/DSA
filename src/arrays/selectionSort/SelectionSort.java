@@ -6,7 +6,6 @@ public class SelectionSort {
         int arr_size = arr.length;
         for (int i = 0; i < arr_size-1; i++) {
             int index = i;
-            System.out.println(index);
             for (int j = i + 1; j < arr_size; j++) {
                 if (arr[i] > arr[j]) {
                     i=j;
