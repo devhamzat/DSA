@@ -10,12 +10,12 @@ public class InvertedTrianglePattern {
         int row = 1;
         while (row <= size) {
             int column = 1;
-            while (column <= (size - row)) {
-                System.out.print(" ");
+            while (column <= size ) {
+                System.out.print("*");
                 column++;
             }
-            while (column <= 3) {
-                System.out.print("*");
+            while (column <= (size-row)) {
+                System.out.print(" ");
                 column++;
             }
             row++;

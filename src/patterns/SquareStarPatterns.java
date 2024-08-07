@@ -14,8 +14,9 @@ public class SquareStarPatterns {
                 System.out.print("*");
                 columns++;
             }
-            System.out.println();
+
             rows++;
+            System.out.println();
         }
     }
 }

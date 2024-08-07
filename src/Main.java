@@ -18,5 +18,15 @@ public class Main {
         int a  = -0;
         System.out.println(a);
         System.out.println(a^1);
+        System.out.println(args.length+5);
     }
+    public  final void printString(String name){
+        String greeting = "hello";
+        System.out.println(greeting+ name);
+
+   }
+//    public void printString(String firstName){
+//        String greeting = "hello";
+//        System.out.println(greeting);
+//    }
 }
