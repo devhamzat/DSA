@@ -1,9 +1,9 @@
 package arrays.arrayBasics;
 
 public class DeletingInArrays {
-    int findElement(int[] arr, int n, int key) {
+    int findElement(int[] arr, int arrayLength, int key) {
         int i;
-        for (i = 0; i < n; i++) {
+        for (i = 0; i < arrayLength; i++) {
             if (arr[i] == key)
                 return i;
 
@@ -11,18 +11,18 @@ public class DeletingInArrays {
         return -1;
     }
 
-    int deleteElement(int[] arr, int n, int key) {
-        int pos = findElement(arr, n, key);
+    int deleteElement(int[] arr, int arrayLength, int key) {
+        int pos = findElement(arr, arrayLength, key);
         if (pos == -1) {
             System.out.println("Element not found");
-            return n;
+            return arrayLength;
         }
 
-        for (int i = pos; i < n - 1; i++) {
-           arr[i] = arr[i+1];
+        for (int i = pos; i < arrayLength - 1; i++) {
+            arr[i] = arr[i + 1];
         }
 
-        return n - 1;
+        return arrayLength - 1;
     }
 
     public static void main(String[] args) {
@@ -33,16 +33,16 @@ public class DeletingInArrays {
         arr[2] = 22;
         arr[3] = 21;
         arr[4] = 20;
-        int n = 5;
-        int x = 2;
+        int arrayLength = 5;
+        int key = 2;
         System.out.println("before deleting");
         for (int j : arr) {
             System.out.println(j);
         }
-        n = deletingInArrays.deleteElement(arr, n, x);
+        arrayLength = deletingInArrays.deleteElement(arr, arrayLength, key);
 
         System.out.println("after deleting ");
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j < arrayLength; j++) {
             System.out.println(arr[j]);
         }
     }
