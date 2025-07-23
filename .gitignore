@@ -3,6 +3,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -29,3 +30,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 Data strucure and algorithms.iml
+.gitignore
