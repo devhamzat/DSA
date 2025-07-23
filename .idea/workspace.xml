@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11ba3927-bad7-4871-9835-4e0c8f6c0e49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/hackerRank/array/HourGlass2dArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/hackerRank/linkedlist/CompareTwoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/PrintNToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/RecursionPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/TailRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_assignments/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/arrayBasics/InsertingInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/arrayBasics/InsertingInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/arrayBasics/ReverseAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/hackerRank/array/ReverseAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/LCM.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;devhamzat&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devhamzat/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;a0fb2a36-fe42-46bd-8b7b-8c748eb20e81&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/Math.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/util/Scanner.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2f3NWhSr0Ijz47vrpxIFyeD76uy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AllDivisor.executor": "Run",
+    "Application.AreaOfACircumference.executor": "Run",
+    "Application.BasicLoopThroughArray.executor": "Run",
+    "Application.BooleanMatrix.executor": "Debug",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Calories.executor": "Run",
+    "Application.DecimalToBinary.executor": "Run",
+    "Application.DeletingInArrays.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibonacciNumbersLoopIMPL.executor": "Run",
+    "Application.GCD.executor": "Run",
+    "Application.InsertingInArray.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.InvertedTrianglePattern.executor": "Run",
+    "Application.LCM.executor": "Run",
+    "Application.LowestValueInArray.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MainLinkedList.executor": "Run",
+    "Application.MaximumNumberInAnArray.executor": "Run",
+    "Application.MultiDimensionArray.executor": "Run",
+    "Application.NthFibonacciNumberRecursionIMPL.executor": "Run",
+    "Application.PrimeFactors.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.PrintNToOne.executor": "Run",
+    "Application.PyramidPattern.executor": "Run",
+    "Application.RecursionPractice.executor": "Run",
+    "Application.ReverseAnArray.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.RightAngleTriangle.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.SquareStarPatterns.executor": "Run",
+    "Application.SumOfElementsInAnArray.executor": "Debug",
+    "Application.TailRecursion.executor": "Run",
+    "Application.TriangularPattern.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Documents/backsnip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MaximumNumberInAnArray">
+    <configuration name="Calories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni_assignments.Calories" />
+      <module name="Data strucure and algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni_assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.LCM" />
+      <module name="Data strucure and algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumNumberInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni_assignments.MaximumNumberInAnArray" />
+      <module name="Data strucure and algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni_assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni_assignments.ReverseArray" />
+      <module name="Data strucure and algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni_assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfElementsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni_assignments.SumOfElementsInAnArray" />
+      <module name="Data strucure and algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni_assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DSA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaximumNumberInAnArray" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.SumOfElementsInAnArray" />
+        <item itemvalue="Application.Calories" />
+        <item itemvalue="Application.LCM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11ba3927-bad7-4871-9835-4e0c8f6c0e49" name="Changes" comment="" />
+      <created>1713025835260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713025835260</updated>
+      <workItem from="1714823841119" duration="1690000" />
+      <workItem from="1714933867357" duration="9252000" />
+      <workItem from="1715498532782" duration="4282000" />
+      <workItem from="1717336629145" duration="730000" />
+      <workItem from="1717746712977" duration="4244000" />
+      <workItem from="1718816355162" duration="3272000" />
+      <workItem from="1719557873076" duration="652000" />
+      <workItem from="1719779480866" duration="588000" />
+      <workItem from="1719916844804" duration="1486000" />
+      <workItem from="1719930478009" duration="3255000" />
+      <workItem from="1720377952225" duration="6100000" />
+      <workItem from="1721818108376" duration="6732000" />
+      <workItem from="1722279560620" duration="19846000" />
+      <workItem from="1722854403140" duration="12552000" />
+      <workItem from="1723463265328" duration="589000" />
+      <workItem from="1723543589625" duration="2550000" />
+      <workItem from="1723723609634" duration="6920000" />
+      <workItem from="1725084641210" duration="344000" />
+      <workItem from="1725085056201" duration="582000" />
+      <workItem from="1725123845566" duration="1919000" />
+      <workItem from="1725256778919" duration="3159000" />
+      <workItem from="1728392020270" duration="715000" />
+      <workItem from="1730918872261" duration="584000" />
+      <workItem from="1732054746202" duration="573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/MaximumNumberInAnArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/SumOfElementsInAnArray.java</url>
+          <line>3</line>
+          <properties class="uni_assignments.SumOfElementsInAnArray" method="sumArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/uni_assignments/ReverseArray.java</url>
+          <line>5</line>
+          <properties class="uni_assignments.ReverseArray" method="reverseArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="29" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="System.out" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
