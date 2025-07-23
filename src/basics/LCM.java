@@ -10,12 +10,12 @@ public class LCM {
         int firstNum = scanner.nextInt();
         System.out.println("Enter second number");
         int secondNum = scanner.nextInt();
-        int maxNum = Math.max(firstNum,secondNum);
-        int maxMultiple = firstNum*secondNum;
+        int maxNum = Math.max(firstNum, secondNum);
+        int maxMultiple = firstNum * secondNum;
         int multiple = maxNum;
-        for (int i = maxNum;maxNum<=maxMultiple; i++){
-            if (i%firstNum==0&&i%secondNum==0){
-                multiple=i;
+        for (int i = maxNum; maxNum <= maxMultiple; i++) {
+            if (i % firstNum == 0 && i % secondNum == 0) {
+                multiple = i;
                 break;
             }
         }

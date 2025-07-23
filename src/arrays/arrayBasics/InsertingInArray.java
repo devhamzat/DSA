@@ -20,6 +20,8 @@ public class InsertingInArray {
 
     public static void main(String[] args) {
         InsertingInArray insertingInArray = new InsertingInArray();
+        int arrayyy[];
+        
         int arr[] = new int[6];
         arr[0] = 2;
         arr[1] = 34;

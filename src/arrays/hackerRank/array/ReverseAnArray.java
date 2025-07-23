@@ -1,8 +1,10 @@
-package arrays.arrayBasics;
+package arrays.hackerRank.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+//https://www.hackerrank.com/challenges/arrays-ds/problem?isFullScreen=true
 
 public class ReverseAnArray {
     public static List<Integer> reverseArray(List<Integer> a) {

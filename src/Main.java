@@ -15,10 +15,14 @@ public class Main {
 //         w=+3;
 //        System.out.println(w);
 //        System.out.println(null==null);
-        int a  = -0;
-        System.out.println(a);
-        System.out.println(a^1);
-        System.out.println(args.length+5);
+//        int a  = -0;
+//        System.out.println(a);
+//        System.out.println(a^1);
+//        System.out.println(args.length+5);
+        System.out.println(Runtime.getRuntime().availableProcessors());
+        System.out.println(Runtime.getRuntime());
+        System.out.println("Total memory available to JVM"+     Runtime.getRuntime().totalMemory());
+//        System.out.println("Total bytes of memory used by JVM : " + Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory());
     }
     public  final void printString(String name){
         String greeting = "hello";
